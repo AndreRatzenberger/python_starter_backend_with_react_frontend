@@ -1,8 +1,9 @@
 # Project Starter with React Frontend 🚀
 
-![image](https://github.com/user-attachments/assets/bba4737e-5b20-441e-9089-5e99f5d965e6)
-
 A modern project template featuring a React frontend with Python backend integration.
+
+![image](https://github.com/user-attachments/assets/b7decf59-2ca7-4946-b011-ceba4932164d)
+
 
 ## Prerequisites
 
