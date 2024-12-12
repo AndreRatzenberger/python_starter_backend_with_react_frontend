@@ -1,14 +1,61 @@
-Install uv
-https://github.com/astral-sh/uv
-https://docs.astral.sh/uv/
+# Project Starter with React Frontend 🚀
 
+A modern project template featuring a React frontend with Python backend integration.
 
-run `uv sync --all-groups` to sync all packages
+## Prerequisites
 
-run `uv run poe run` to build frontend end start python backend, which also serves the frontend
+### UV Package Manager
 
-run `uv run poe build_frontend` to build frontend
+This project uses [UV](https://github.com/astral-sh/uv), a modern Python package manager.
 
-run `uv run poe run_frontend` to serve frontend via vite
+#### Installation
 
+Visit the official documentation for detailed installation instructions:
+- [UV Installation Guide](https://docs.astral.sh/uv/)
+- [UV GitHub Repository](https://github.com/astral-sh/uv)
 
+## 🛠 Setup & Development
+
+### Initial Setup
+
+Synchronize all project dependencies:
+```bash
+uv sync --all-groups
+```
+
+### Available Commands
+
+#### Full Stack Development
+Run both frontend and backend (recommended for development):
+```bash
+uv run poe run
+```
+This command will:
+- Build the frontend
+- Start the Python backend
+- Serve the frontend through the backend server
+
+#### Frontend Only
+
+Build the frontend:
+```bash
+uv run poe build_frontend
+```
+
+Start the frontend development server:
+```bash
+uv run poe run_frontend
+```
+This will serve the frontend using Vite's development server with hot module replacement.
+
+## 📦 Project Structure
+
+- `/src/frontend` - React frontend application
+- `/src/myproject` - Python backend application
+
+## 🔧 Technology Stack
+
+- **Frontend**: React + TypeScript + Vite
+- **Backend**: Python
+- **Package Management**: UV
+- **Task Runner**: Poethepoet (poe)
